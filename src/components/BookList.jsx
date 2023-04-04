@@ -8,7 +8,7 @@ class BookList extends Component {
       <>
         {this.props.books.map((book, index) => {
           return (
-            <Col md={4} lg={3} className="mt-5">
+            <Col md={6} lg={3} className="mt-5">
               <SingleBook key={`book-${index}`} book={book} />
             </Col>
           );

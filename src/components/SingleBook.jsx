@@ -23,7 +23,7 @@ class SingleBook extends Component {
         }}
       >
         <Card.Img
-          className="img-fluid "
+          className="img-fluid"
           variant="top"
           src={this.props.book.img}
         />

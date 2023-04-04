@@ -25,13 +25,10 @@ class App extends Component {
     return (
       <div className="App bg-dark ">
         <MyNav />
-        <InputSearch onSearch={this.handleSearch} />
+
         <Welcome />
 
-        <Container
-          fluid
-          className="bg-primary rounded-4 border border-light w-75 p-4"
-        >
+        <Container className="bg-primary rounded-4 border border-light ">
           <Row>
             <BookList books={this.state.filterBooks} />
           </Row>
